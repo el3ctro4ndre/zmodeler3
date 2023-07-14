@@ -1,4 +1,4 @@
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface>
   <name>ZModeler</name>
   <summary xml:lang="en">ZModeler3</summary>
   <category>game developing</category>
