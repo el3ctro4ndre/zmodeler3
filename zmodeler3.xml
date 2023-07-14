@@ -1,0 +1,20 @@
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>ZModeler</name>
+  <summary xml:lang="en">ZModeler3</summary>
+  <category>game developing</category>
+  <implementation arch="Windows-x86_64" version="3.3.0.1230" id="sha256new_YQJ3XISZMNRCZURTSQHB2FPEFHXFRH53MGZWKAZRTGOPLPMC44MQ">
+    <command name="run" path="ZModeler3.exe" />
+    <command name="zmStoneGuard" path="zmStoneGuard.exe" />
+    <manifest-digest sha256new="YQJ3XISZMNRCZURTSQHB2FPEFHXFRH53MGZWKAZRTGOPLPMC44MQ" />
+    <archive href="https://www.zmodeler3.com/files/zmodeler3_x64.zip" size="20823540" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="ZModeler3" />
+  <entry-point command="zmStoneGuard" binary-name="zmStoneGuard">
+    <name xml:lang="en">ZModeler3</name>
+    <summary xml:lang="en">User Interface Application</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJksV3UAAoJEOjUld1AWJ/+wIkIAJPo82V6ZDDi9paVdVBrgOXvuTq2O0wYwwXOgIyKv19w0jasE0vND4HzCYHThySbqwtfEIsxzvToitw41lSznWRBztorlsNuUxaY3M4W91H33uCAsZ7c1PXXrMiyvrwUJNNCrR5rciubuADekqJR9wPi9hPNmoXYqRCgK3aZfEA85bPlJjRaHjAX5/0Mo12mZHWEgM5I9a3NwEsV6ZmOpNdhEpQfZeNICVsdYeyuT4mytIhRjfLp9+1akoAqVLoIlcNhXGsaI3HhEZ6tWne+3REknp0JE5lIEL28TJP/hxidecuMYpED47Nwu96xc2n8ZG6vpvhn9+crZuW/hlbY8ro=
+
+-->
