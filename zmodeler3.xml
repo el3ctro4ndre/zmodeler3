@@ -1,0 +1,16 @@
+<interface>
+  <name>ZModeler</name>
+  <summary xml:lang="en">ZModeler3</summary>
+  <category>game developing</category>
+  <implementation arch="Windows-x86_64" version="3.3.0.1230" id="sha256new_YQJ3XISZMNRCZURTSQHB2FPEFHXFRH53MGZWKAZRTGOPLPMC44MQ">
+    <command name="run" path="ZModeler3.exe" />
+    <command name="zmStoneGuard" path="zmStoneGuard.exe" />
+    <manifest-digest sha256new="YQJ3XISZMNRCZURTSQHB2FPEFHXFRH53MGZWKAZRTGOPLPMC44MQ" />
+    <archive href="https://www.zmodeler3.com/files/zmodeler3_x64.zip" size="20823540" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="ZModeler3" />
+  <entry-point command="zmStoneGuard" binary-name="zmStoneGuard">
+    <name xml:lang="en">ZModeler3</name>
+    <summary xml:lang="en">User Interface Application</summary>
+  </entry-point>
+</interface>
