@@ -1,4 +1,4 @@
-<interface>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>ZModeler</name>
   <summary xml:lang="en">ZModeler3</summary>
   <category>game developing</category>
